@@ -1,0 +1,109 @@
+@font-face {
+  font-family: affagato;
+  src: url("./affogato.otf") format("opentype");
+}
+
+@font-face {
+  font-family: panton;
+  src: url("./panton.otf") format("opentype");
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(0, 174, 239);
+}
+
+.display-row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* mobiles (landscape and portrait) */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .section-header {
+    font-size: 28px;
+    /* font-family: panton; */
+    color: rgb(0, 174, 239);
+    text-align: center;
+    padding: 24px 24px 0;
+  }
+  .section-divider {
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .section-divider-line {
+    height: 0;
+    width: 40px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 174, 239);
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 800px) {
+  .section-header {
+    font-size: 44px;
+    /* font-family: panton; */
+    color: rgb(0, 174, 239);
+    text-align: center;
+    padding: 40px 40px 0;
+  }
+  .section-divider {
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .section-divider-line {
+    height: 0;
+    width: 60px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 174, 239);
+  }
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-device-width: 850px) and (max-device-width: 1024px) {
+  .section-header {
+    font-size: 44px;
+    /* font-family: panton; */
+    color: rgb(0, 174, 239);
+    text-align: center;
+    padding: 60px 60px 0;
+  }
+  .section-divider {
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .section-divider-line {
+    height: 0;
+    width: 80px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 174, 239);
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .section-header {
+    font-size: 60px;
+    /* font-family: panton; */
+    color: rgb(0, 174, 239);
+    text-align: center;
+    padding: 60px 60px 0;
+  }
+  .section-divider {
+    padding-top: 16px;
+    padding-bottom: 48px;
+  }
+  .section-divider-line {
+    height: 0;
+    width: 120px;
+    margin: 0 auto;
+    border: 1px solid rgb(0, 174, 239);
+  }
+}

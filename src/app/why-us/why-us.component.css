@@ -1,0 +1,196 @@
+/* mobiles (landscape and portrait) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) {
+  .why-section-text {
+    font-size: 16px;
+    color: rgb(133, 145, 150);
+    text-align: center;
+    padding: 0 32px 32px 32px;
+    letter-spacing: 1.2px;
+  }
+
+
+  .why-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .why-section-icon {
+    color: rgb(0, 174, 239);
+    background: rgb(18, 30, 35);
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    line-height: 26px;
+    margin: 4px 16px;
+  }
+
+  .why-section-header {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    color: #e8e8e8;
+    margin: 8px;
+  }
+
+  .why-section-info {
+    padding: 0px 40px 24px;
+    color: rgb(133, 145, 150);
+    font-size: 16px;
+    margin-left: 32px;
+    margin-top: 12px;
+    border-left: 1px solid rgb(133, 145, 150);
+  }
+
+  .why-section-sub-container {
+    margin-bottom: 40px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 550px) and (max-device-width: 800px) {
+  .why-section-text {
+    font-size: 24px;
+    color: rgb(133, 145, 150);
+    text-align: center;
+    padding: 0 60px 60px 60px;
+  }
+
+
+  .why-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    padding-bottom: 40px;
+  }
+
+  .why-section-icon {
+    color: rgb(0, 174, 239);
+    background: rgb(18, 30, 35);
+    border-radius: 50%;
+    font-size: 26px;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    line-height: 40px;
+    margin: 16px;
+  }
+
+  .why-section-header {
+    font-size: 26px;
+    color: #e8e8e8;
+    margin: 16px;
+  }
+
+  .why-section-info {
+    padding: 0px 16px 24px 60px;
+    margin-left: 40px;
+    color: rgb(133, 145, 150);
+    font-size: 20px;
+    border-left: 1px solid rgb(133, 145, 150);
+  }
+
+  .why-section-sub-container {
+    margin-bottom: 40px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-device-width: 850px) and (max-device-width: 1024px) {
+  .why-section-text {
+    font-size: 26px;
+    color: rgb(133, 145, 150);
+    text-align: center;
+    padding: 0 60px 60px 60px;
+  }
+
+
+  .why-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    padding-bottom: 40px;
+  }
+
+  .why-section-icon {
+    color: rgb(0, 174, 239);
+    background: rgb(18, 30, 35);
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    line-height: 40px;
+    margin: 16px;
+  }
+
+  .why-section-header {
+    font-size: 30px;
+    color: #e8e8e8;
+    margin: 16px;
+  }
+
+  .why-section-info {
+    width: 320px;
+    padding: 0px 16px 24px 60px;
+    margin-left: 40px;
+    color: rgb(133, 145, 150);
+    font-size: 20px;
+    border-left: 1px solid rgb(133, 145, 150);
+  }
+
+  .why-section-sub-container {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .why-section-text {
+    font-size: 28px;
+    color: rgb(133, 145, 150);
+    text-align: center;
+    padding: 0 90px 80px;
+  }
+
+  .why-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+  }
+
+  .why-section-icon {
+    color: rgb(0, 174, 239);
+    background: rgb(18, 30, 35);
+    border-radius: 50%;
+    font-size: 34px;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    line-height: 40px;
+    margin: 16px;
+  }
+
+  .why-section-header {
+    font-size: 34px;
+    color: #e8e8e8;
+    margin: 16px;
+  }
+
+  .why-section-info {
+    width: 320px;
+    padding: 0px 16px 24px 60px;
+    margin-left: 40px;
+    color: rgb(133, 145, 150);
+    font-size: 20px;
+    border-left: 1px solid rgb(133, 145, 150);
+  }
+
+  .why-section-sub-container {
+    margin: 0 40px 60px 40px;
+  }
+}

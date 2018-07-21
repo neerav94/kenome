@@ -1,0 +1,27 @@
+.dark-theme-1 {
+  background: rgb(42, 54, 59);
+}
+
+.dark-theme-2 {
+  background: rgb(45, 61, 66);
+}
+
+.light-theme-1 {
+  background: #fff;
+}
+
+.light-theme-2 {
+  background: rgb(214, 212, 212);
+}
+
+.color-white {
+  color: #fff;
+}
+
+.color-dark {
+  color: rgb(99, 102, 106);
+}
+
+.color-blue {
+  color: rgb(0, 174, 239);
+}

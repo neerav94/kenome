@@ -1,0 +1,129 @@
+<div>
+  <div id="home" class="dark-theme-1">
+    <div id="mainHeader" class="main-header">
+      <div class="display-row">
+        <img class="logo-icon" src="./assets/imgs/logo.png" alt="logo" />
+        <div class="color-blue logo-text">KENOME</div>
+      </div>
+      <div class="display-row nav-container">
+        <div id="mobileNav" (click)="_menuClicked()">
+          <object id="svg1" data="./assets/icons/menu.svg" type="image/svg+xml" class="svg-menu-icon"></object>
+        </div>
+        <div id="laptopNav" class="display-row">
+          <div class="nav-link">
+            <a href="#home" class="scrollLink">HOME</a>
+          </div>
+          <div class="nav-link">
+            <a href="#whyUs" class="scrollLink">WHY KENOME</a>
+          </div>
+          <div class="nav-link">
+            <a href="#products" class="scrollLink">PRODUCTS</a>
+          </div>
+          <div class="nav-link">
+            <a href="#aboutUs" class="scrollLink">ABOUT</a>
+          </div>
+          <div class="nav-link">
+            <a href="#contactUs" class="scrollLink">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="secondaryHeader" class="secondary-header">
+      <div class="display-row">
+        <img class="secondary-logo-icon" src="./assets/imgs/logo.png" alt="logo" />
+        <div class="color-blue secondary-logo-text">KENOME</div>
+      </div>
+      <div class="display-row nav-container">
+        <div id="mobileNav" (click)="_menuClicked()">
+          <object id="svg1" data="./assets/icons/menu.svg" type="image/svg+xml" class="svg-menu-icon"></object>
+        </div>
+        <div id="laptopNav" class="display-row">
+          <div class="secondary-nav-link">
+            <a href="#home" class="scrollLink">HOME</a>
+          </div>
+          <div class="secondary-nav-link">
+            <a href="#whyUs" class="scrollLink">WHY KENOME</a>
+          </div>
+          <div class="secondary-nav-link">
+            <a href="#products" class="scrollLink">PRODUCTS</a>
+          </div>
+          <div class="secondary-nav-link">
+            <a href="#aboutUs" class="scrollLink">ABOUT</a>
+          </div>
+          <div class="secondary-nav-link">
+            <a href="#contactUs" class="scrollLink">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-container">
+      <div class="color-dark">
+        <!-- <div class="home-info-main-text">Kenome -
+          <span>A Core AI Company</span>
+        </div> -->
+        <div class="home-info-sub-container">
+          <!-- <div class="home-info-sub-text-boundary"></div> -->
+          <div class="home-info-sub-text">Kenome is a core AI company helping enterprises make sense of dark data using cutting-edge Machine Learning, NLP,
+            and Knowledge Graphs.</div>
+        </div>
+      </div>
+      <div>
+        <img class="home-info-img" src="./assets/imgs/brain.png" alt="logo" />
+      </div>
+    </div>
+  </div>
+  <div id="whyUs" class="dark-theme-2">
+    <app-why-us></app-why-us>
+  </div>
+  <div id="products" class="dark-theme-1">
+    <app-products></app-products>
+  </div>
+  <div id="customers" class="dark-theme-2">
+    <app-customers></app-customers>
+  </div>
+  <div id="aboutUs" class="dark-theme-1">
+    <app-about-us></app-about-us>
+  </div>
+  <div id="contactUs" class="dark-theme-2">
+    <app-contact-us></app-contact-us>
+  </div>
+  <div id="footer" class="dark-theme-2">
+    <div class="footer">
+      <div>&copy; Kenome 2018. All Rights Reserved.</div>
+      <div class="footer-nav">
+        <div class="footer-nav-link">
+          <a href="#home" class="scrollLink" style="color: rgb(133, 145, 150);">Home</a>
+          <span>/</span>
+        </div>
+        <div class="footer-nav-link">
+          <a href="#products" class="scrollLink" style="color: rgb(133, 145, 150);">Products</a>
+          <span>/</span>
+        </div>
+        <div class="footer-nav-link">
+          <a href="#aboutUs" class="scrollLink" style="color: rgb(133, 145, 150);">About</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="menuClickedFlag" class="mobile-navigation">
+  <div (click)="_menuClicked()">
+    <object id="svg2" data="./assets/icons/close.svg" (click)="_menuClicked()" type="image/svg+xml" class="svg-close-icon"></object>
+  </div>
+  <div (click)="_menuClicked()" class="mobile-navigation-container">
+    <div class="mobile-navigation-links">
+      <a href="#home" style="color: #fff;">Home</a>
+    </div>
+    <div class="mobile-navigation-links">
+      <a href="#products" style="color: #fff;">Products</a>
+    </div>
+    <div class="mobile-navigation-links">
+      <a href="#aboutUs" style="color: #fff;">About</a>
+    </div>
+    <div class="mobile-navigation-links">
+      <a href="#contactUs" style="color: #fff;">Contact</a>
+    </div>
+  </div>
+</div>
