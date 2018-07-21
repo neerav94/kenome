@@ -18,11 +18,31 @@ export class HomeComponent implements OnInit {
     $(document).ready(function () {
       $("a.scrollLink").click(function (event) {
         event.preventDefault();
-        $("html, body").animate({
-          scrollTop: $($(this).attr("href")).offset().top
-        }, 500);
+        if(document.getElementById("secondaryHeader").style.display == "flex") {
+          $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top - 20
+          }, 500);
+        } else {
+          $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top - 160
+          }, 500);
+        }
       });
     });
+  }
+
+  _scrollToDiv(event) {
+    var el = document.getElementsByTagName("body")[0] // Or whatever method to get the element
+
+    console.log(el.scrollTop);
+    // To set the scroll
+    // el.scrollTop = 0;
+    // el.scrollLeft = 0;
+
+    // To increment the scroll
+    // el.scrollTop = 400;
+    // el.scrollLeft += 400;
+    console.log(el.scrollTop);
   }
 
   track(event) {

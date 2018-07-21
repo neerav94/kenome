@@ -21,7 +21,8 @@
     width: 40px;
   }
   #laptopNav,
-  .secondary-header {
+  .secondary-header,
+  .secondary-logo-icon {
     display: none;
   }
   .home-container {
@@ -106,7 +107,8 @@
     padding-right: 32px;
   }
   #laptopNav,
-  .secondary-header {
+  .secondary-header,
+  .secondary-logo-icon {
     display: none;
   }
   .home-container {
