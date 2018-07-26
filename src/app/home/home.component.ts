@@ -31,20 +31,6 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  _scrollToDiv(event) {
-    var el = document.getElementsByTagName("body")[0] // Or whatever method to get the element
-
-    console.log(el.scrollTop);
-    // To set the scroll
-    // el.scrollTop = 0;
-    // el.scrollLeft = 0;
-
-    // To increment the scroll
-    // el.scrollTop = 400;
-    // el.scrollLeft += 400;
-    console.log(el.scrollTop);
-  }
-
   track(event) {
     var scrollPos = window.pageYOffset;
     var divHeight = $('#home').offset().top;
