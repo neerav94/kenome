@@ -11,6 +11,18 @@
       color: rgb(133, 145, 150);
       border-left: 1px solid rgb(133, 145, 150);
     }
+    .customers-target-program {
+      margin-top: 32px;
+      font-size: 16px;
+      color: rgb(133, 145, 150);
+      padding-left: 60px;
+      align-items: center;
+    }
+    .customers-target-image {
+      height: 40px; 
+      width: 32px; 
+      margin-left: 16px;
+    }
   }
   
   /* iPads (portrait and landscape) ----------- */
@@ -25,6 +37,18 @@
       font-size: 20px;
       color: rgb(133, 145, 150);
       border-left: 1px solid rgb(133, 145, 150);
+    }
+    .customers-target-program {
+      margin-top: 32px;
+      font-size: 20px;
+      color: rgb(133, 145, 150);
+      padding-left: 60px;
+      align-items: center;
+    }
+    .customers-target-image {
+      height: 48px; 
+      width: 36px; 
+      margin-left: 16px;
     }
   }
   
@@ -41,6 +65,18 @@
       color: rgb(133, 145, 150);
       border-left: 1px solid rgb(133, 145, 150);
     }
+    .customers-target-program {
+      margin-top: 32px;
+      font-size: 20px;
+      color: rgb(133, 145, 150);
+      padding-left: 60px;
+      align-items: center;
+    }
+    .customers-target-image {
+      height: 48px; 
+      width:36px; 
+      margin-left: 16px;
+    }
   }
   
   @media only screen and (min-width: 1224px) {
@@ -53,5 +89,17 @@
       font-size: 20px;
       color: rgb(133, 145, 150);
       border-left: 1px solid rgb(133, 145, 150);
+    }
+    .customers-target-program {
+      margin-top: 32px;
+      font-size: 20px;
+      color: rgb(133, 145, 150);
+      padding-left: 60px;
+      align-items: center;
+    }
+    .customers-target-image {
+      height: 48px; 
+      width: 36px; 
+      margin-left: 16px;
     }
   }
